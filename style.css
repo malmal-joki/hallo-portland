@@ -12,80 +12,114 @@ colors:
  dark green : hex 655C37
  purple : hex 8A6EB1
 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    background: #F4AF8F;
-    text-align: left;
+  background: #f4af8f;
+  text-align: left;
 }
 
 img {
-  width: 200%;
+  width: 100%;
   align-items: flex-start;
 }
 
 body-type {
   margin: 0;
   font-family: 'Zilla Slab', serif;
-  font-size: 21px ;
+  font-size: 21px;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-family: 'Underdog', cursive;
 }
-h3 {font-size: 40px ;}
-
-h1, h2 {
- font-family: 'Pirata One', cursive;
+h3 {
+  font-size: 40px;
+  line-height: 60px;
+  margin-top: 40px;
+  text-align: center;
 }
- h1 {font-size: 140px;}
 
+h1,
+h2 {
+  font-family: 'Pirata One', cursive;
+}
+h1 {
+  font-size: 140px;
+  letter-spacing: 16px;
+}
 
 .button {
-  font: size 48px;
+  display: inline-block;
+  font-size: 48px;
   font-weight: 700;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Pirata One', cursive;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding: 8px 12px;
+  margin-top: 40px;
+}
+.diamonds {
+  margin-top: 40px;
 }
 
 /* Style the navbar */
 #navbar {
-    overflow: hidden;
-    background-color: #F3944B;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  /* Navbar links */
-  #navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 25px;
-    text-decoration: none;
-    font-family: 'Underdog', cursive;
-    font-size: 30px;
-  
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  overflow: hidden;
+  background-color: #f3944b;
+  display: flex;
+  justify-content: space-around;
+}
 
-  .homepage main {
-    display:flex;
-    width: 90%;
-    margin: auto;
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-family: 'Underdog', cursive;
+  font-size: 30px;
+}
+#navbar a:hover {
+  color: purple;
+}
+#navbar a.active {
+  color: #000;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
 
-  }
-  
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.homepage h1 {
+  margin-left: -200px;
+}
+.homepage main {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.homepage main div {
+  flex: 1;
+}
+
+.hallo-txt {
+  color: #fff;
+}
