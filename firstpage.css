@@ -12,77 +12,56 @@ colors:
  dark green : hex 655C37
  purple : hex 8A6EB1
 */
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
   margin: 0;
   padding: 0;
 }
-
 body {
-  background: #f4af8f;
-  text-align: left;
+ text-align: left;
 }
 
-img  {
-  width: 95%;
-  align-items: flex-start;
-}
-
-#sparkle {
-  width: 50%;
-  padding-top: 50px;
-  padding-left: 150px;
-}
-
-body-type {
+.p2 {
   margin: 0;
   font-family: 'Zilla Slab', serif;
   font-size: 21px;
 }
 
-h3 {
+.p1, h6{
   font-family: 'Underdog', cursive;
 }
-h3 {
-  font-size: 35px;
-  line-height: 60px;
+p1 {
+  font-size: 25px;
+  line-height: 30px;
   margin-top: 40px;
+  text-align: left;
+}
+h6{
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+h4, h5 {
+  font-family: 'Pirata One', cursive;
+}
+h4 {
+  font-size: 75px;
+  letter-spacing: 3px;
   text-align: center;
+  margin-top: 0px;
+}
+h5 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-top: 0px;
 }
 
-h1,
-h2 {
-  font-family: 'Pirata One', cursive;
-}
-h1 {
-  font-size: 130px;
-  letter-spacing: 18px;
-  text-align: right;
-  margin-top: 20px;
-}
-
-.button {
-  display: inline-block;
-  text-align: right;
-  font-size: 48px;
-  font-weight: 700;
-  border: 4px solid #fff;
-  border-radius: 12px;
-  color: #fff;
-  font-family: 'Pirata One', cursive;
-  font-weight: 400;
-  letter-spacing: 4px;
-  text-decoration: none;
-  padding: 10px 20px;
-  margin-top: 50px;
-  margin-left: 110px;
-}
-.button:hover {
-  color: #8A6EB1;
-  border: 4px solid #8A6EB1;
-}
-.diamonds {
-  margin-top: 40px;
-}
 
 .bar {
   height: 30000px;
@@ -93,6 +72,7 @@ h1 {
   overflow: hidden;
   background-color: #f3944b;
   display: flex;
+  position: fixed;
   width: 100%;
   justify-content: space-around;
 }
@@ -144,17 +124,84 @@ h1 {
   color: #fff;
 }
 
-/* Ghost Svg up-down
-#ghost {
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  transform-origin: bottom;
-  animation-name: bounce;
-  animation-timing-function: ease;
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 1000px;
+    height: 100%;
+
 }
 
-@keyframes bounce {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(-100px); }
-  100% { transform: translateY(0); }
-} */
+#family-fun {
+  
+  padding-top: 110px;
+  background-color: #C28C88;
+  margin:auto;
+
+}
+* {box-sixin: border-box;}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+    color: white;
+    background:black;
+    margin:0;
+}
+main {
+    display:flex;
+    width:90%;
+    margin:auto;
+    border-radius:20px;
+}
+
+main article {
+    padding-top:30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+#halloweentown-1 {
+  width: 150%;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  
+}
+#halloweentown-2 {
+  width: 90%;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  margin-left:-50px;
+  margin-top:-80px;
+  
+}
+
+.p1 {
+  
+}
+
+.p2 {
+ 
+  
+
+}
+.detais{
+  margin-right: auto;
+  border: 4px solid #fff;
+  border-radius: 12px;
+}
+
+
+
+#adventurous {
+    background-color: #B0D2BC;
+}
+
+#social {
+    background-color: #655C37;
+}
+
+#spooky {
+  background-color: #8A6EB1;
+}
